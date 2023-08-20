@@ -1,0 +1,35 @@
+.main-container-login{
+    width: 100vw;
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.table-input-field{
+    width: 400px;
+}
+
+.table-heading{
+    margin: 30px;
+}
+
+
+.table-input{
+    margin: 20px;
+}
+
+.logButton{
+    margin-top: 15px;
+}
+
+.table-field{
+    margin-left: 32%;
+}
+
+.table-tr{
+    margin: 20px !important;
+}
+.table-td{
+    text-align: right !important;
+    margin: 20px;
+ 
+}

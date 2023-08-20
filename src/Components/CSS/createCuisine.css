@@ -1,0 +1,30 @@
+.preview-img {
+  height: 200px;
+  width: 100%;
+}
+.preview-img img {
+  margin-inline: auto;
+  height: 200px;
+  width: 200px;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.create-cuisine-body {
+    width: 60%;
+    padding: 4rem 0;
+}
+.cuisine-select-img {
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+    cursor: pointer;
+    color: var(--gold-crayola);
+}
+.cuisine-select-img input {
+    visibility: hidden;
+    height: 0; width: 0;
+}
+.cuisine-img-container {
+    margin-bottom: 3rem;
+}

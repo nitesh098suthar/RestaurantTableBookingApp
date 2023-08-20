@@ -1,0 +1,27 @@
+.Footer
+{
+    
+    /* background: url("E:\Minor Project\restrospace\public\Images\Footer.jpg") */
+    background: url("../../public/Images/Footer.jpg")
+}
+
+.FooterOne, .FooterThree
+{
+    width: 300px;
+    height: 38vh;
+    background-color: var(--smoky-black-2);
+    padding: var(--padding-double);
+    /* padding-top: 20vh; */
+}
+
+.FooterTwo
+{
+    width: 500px;
+    height: 70vh;
+    background-color: var( --smoky-black-1);
+    padding: var(--padding-double);
+    border-left: 4px solid ;
+    border-right: 4px solid ;
+    border-color:var(--gold-crayola);
+    margin: var(--margin-all);
+}

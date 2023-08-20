@@ -1,0 +1,30 @@
+.OurStory
+{
+    position: relative;
+
+}
+
+
+.OurStoryOne
+{
+    width: 40vw;
+    height: 75vh;
+    background-color: rgb(17, 17, 17);
+    border-radius: var(--radius-24);
+    padding: var(--padding-double);
+}
+
+
+.rightStoryImage
+{
+    width: 700px;
+    padding-right: var(--padding-rightx);
+
+}
+#story{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.Mid{
+    margin-bottom: 20px;
+}

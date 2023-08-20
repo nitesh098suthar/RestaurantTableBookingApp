@@ -1,0 +1,43 @@
+.OurStrength
+{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.OurStrength-wrapper
+{
+    display: grid;
+    place-items: center;
+}
+
+.strengthCard
+{
+    width: 250px;
+    height: 250px;
+    margin: var(--margin-all);
+    border-radius: var(--border-radius-all);
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+}
+
+.StrengthFourth,
+.StrengthSecond
+{
+    background-color: black;
+}
+
+.StrengthFirst,
+.StrengthThird
+{
+    background-color: rgb(16, 16, 16);
+}
+
+.strengthImage
+{
+    
+}
+

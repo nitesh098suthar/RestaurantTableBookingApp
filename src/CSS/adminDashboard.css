@@ -1,0 +1,51 @@
+.admin-parent {
+    position: relative;
+    display: flex;
+    /* height: 100vh; */
+}
+.admin-dashboard {
+    width: 75%;
+    overflow-y: scroll;
+    /* height: 100%; */
+    background-color: var(--smoky-black-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.admin-dashboard table{
+    width: 70vw;
+    text-align: center;
+    box-shadow: 0 0 10px 5px var(--smoky-black-3);
+    overflow: auto;
+}
+.admin-dashboard table > thead {
+    color: var(--smoky-black-3);
+    background-color: var(--gold-crayola);
+}
+.admin-dashboard table tbody tr:nth-child(even){
+    background-color: var(--smoky-black-3);
+}
+
+.admin-dashboard table tbody tr td{
+    padding: 1rem;
+}
+
+.table-container {
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+
+@media only screen and (max-width: 768px){
+    .admin-parent{
+        flex-direction: column;
+    }
+    .admin-dashboard{width: 100%;}
+    .table-container {
+        width: 90%;
+    }
+    .table-container table {
+        width: 100%;
+    }
+}

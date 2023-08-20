@@ -1,0 +1,32 @@
+.admin-sidebar {
+    background-color: var(--smoky-black-3);
+    width: 25%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+.admin-sidebar-header 
+{
+    padding: 4rem 1rem;
+}
+.admin-sidebar-body { 
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.admin-sidebar-body li {
+    display: block;
+}
+.admin-sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 768px){
+    .admin-sidebar{
+        margin-top: 4rem;
+        width: 100%;
+        height: 75vh;
+    }
+}

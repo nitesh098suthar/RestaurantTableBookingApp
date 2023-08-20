@@ -1,0 +1,46 @@
+.MostOrdered
+{
+    /* background: url("E:\Minor Project\restrospace\public\Images\Most-Ordered.png"); */
+    background: url("../../public/Images/Most-Ordered.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.MostOrderedTwoySection
+{
+    width: 1px;
+    height: 50vh;
+    background-color: aliceblue;
+    margin: var(--margin-double-double);
+
+
+}
+
+.MostOrderedThree
+{
+    margin: var(--margin-double);
+}
+
+
+.card
+{
+    display: flex;
+    margin: var(--margin-all);
+    text-align: left;
+    align-items: center;
+}
+
+.DishCardImage
+{
+    margin-right: var(--margin-all);
+}
+

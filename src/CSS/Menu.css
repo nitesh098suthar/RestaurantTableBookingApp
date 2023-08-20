@@ -1,0 +1,74 @@
+
+.Menu {
+  background: url("../../public/Images/Menu.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+/* +++++++++++++++++++++++++++++++++ */
+
+.displayFlex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.displayFlexCard{
+  display: flex;
+  justify-content: left;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+
+.MenuCards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  width: 75%;
+  margin: 30px;
+  /* background-color: aquamarine; */
+}
+
+/* +++++++++++++++++++++++++++++++++ */
+
+
+.MenuFirstSection{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5px;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+.MenuCardOne{
+  width: 500px;
+  /* background-color: brown; */
+  margin: 10px;
+
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+.DishCardImage{
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  margin: 0 20px 0 0;
+}
+
+#heading{
+  margin-bottom: 23px;
+}
+
+
+/* ========================================================== */
+
+
+

@@ -1,0 +1,25 @@
+.Reservation {
+    /* background: url("E:\Minor Project\restrospace\public\Images\OnlineReservation.png"); */
+    background: url("../../public/Images/OnlineReservation.png");
+}
+
+.ResOne
+{
+    width: 60vw;
+    height: 60vh;
+    background-color: black;
+
+}
+
+.ResTwo
+{
+    width: 30vw;
+    height: 60vh;
+    background-color: rgb(30, 30, 30);
+}
+.input-field {
+    color: white;
+}
+.select-dropdown{
+    color: white;
+}

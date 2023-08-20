@@ -1,0 +1,56 @@
+.SpecialDishes
+{
+    background : url("../../public/Images/SpecialDishes.png");
+    background-size: 100vh;
+}
+.paneerTikkaText
+{
+    padding : 20px 50px 20px 50px;
+    text-align: justify;
+}
+
+#specialDishImage
+{
+    width:56vw;
+ 
+}
+
+.SpecialDishesTwo
+{
+    position: relative;
+    width: 40vw;
+    
+}
+.sdprice{
+    padding : 0 0 20px 0;
+}
+
+del{
+    opacity: 50%;
+
+}
+.sdpricereal{
+    font-size: large;
+}
+
+.SDT-Wrapper
+{
+    position: relative;
+
+}
+
+.SpecialDishesTwox
+{
+    display: flex;
+    align-items: center;
+    position : relative;
+
+}
+.ticket
+{
+    /* background-color: blanchedalmond; */
+    position : absolute;
+    left: 33%;
+    bottom : 34%;
+}
+

@@ -1,0 +1,31 @@
+.WeOffers
+{
+   justify-content: center;
+   align-items: center;
+   background: url("../../public/Images/weOffers.png");
+   
+}
+
+.offeringCard
+{
+    padding: 030px;
+   
+}
+
+.weOffersTwoMidTwo
+{
+    position: relative;
+    
+}
+
+.appetizers-wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.cardTitle
+{
+    padding: 20px;
+}

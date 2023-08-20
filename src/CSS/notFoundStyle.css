@@ -1,0 +1,31 @@
+.not-found-parent{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.spinner-container {
+    height: 100px;
+    width: 110px;
+    display: grid;
+    place-items: center;
+}
+.spinner {
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: .7rem solid tan;
+    border-inline: .7rem dashed white;
+    animation: 2s spin infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(-40deg);
+    }
+    100% {
+        transform: rotate(320deg);
+    }
+    
+}

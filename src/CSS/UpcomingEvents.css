@@ -1,0 +1,25 @@
+.upcard
+{
+    position: relative;
+    padding: var(--padding-all);
+    /* width: 100%; */
+
+}
+
+.UpcomingImages
+{
+    width: 300px;
+}
+
+.cardOneOverlay,
+.cardTwoOverlay,
+.cardThreeOverlay
+{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 300px;
+    background-color: var(--black-alpha-15);
+    
+}
