@@ -52,7 +52,7 @@ const Menu = ({ cuisine, isPopularSection }) => {
 
   return (
     <>
-      <div className="Menu" id="menu">
+      <div className="Menu flex-item displayFlex" id="menu">
         <div className="Menu-wrapper grid-wrapper">
           <div className="MenuHead smallText alwaysHead ">
             <p className="head-line">
